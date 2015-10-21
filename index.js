@@ -13,7 +13,7 @@ var transporter = nodemailer.createTransport({
 
 var mailOptions = {
     from: 'Server', // sender address
-    to: '2066128681@vtext.com', // list of receivers
+    to: '@vtext.com', // list of receivers
     subject: 'Websites', // Subject line
     text: 'Websites still up', // plaintext body
     html: '<br>Websites still up</br>' // html body
